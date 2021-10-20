@@ -16,16 +16,17 @@
 
 .main{
     display: flex;
+    flex-direction: row;
     /* border: 5px solid blueviolet; */
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
 form{
     /* border: 3px solid red; */
-    width: 70%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     line-height: 30px;
@@ -140,9 +141,10 @@ width: 100%;
 
 .product{
     /* border: green 3px solid; */
-    display: flex;
+    display: block;
     flex-direction: column;
-    width: 45%;
+    width: 35%;
+    max-width: 300px;
     margin-top: 2rem;
     background-color: #EEE ;
     border-radius: 10px;
@@ -152,6 +154,7 @@ width: 100%;
 .image-part{
     /* border: 1px solid blue; */
     display: flex; 
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 0.3rem 1rem 1rem 1rem;  
@@ -225,6 +228,7 @@ span{
     font-size: 1rem;
     margin: 2rem 1rem 0 2rem;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .total-price{
@@ -236,6 +240,7 @@ span{
     font-size: 1rem;
     margin: 0.5rem 1rem 0.5rem 2rem;
     font-family: 'Times New Roman', Times, serif;
+    
     
 }
 
